@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje ulubione gry wideo - Wersja Alternatywna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <p id="demo"></p>
+
+  <script>
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d;
+  </script>
+  <!-- NAGŁÓWEK STRONY -->
+  <h1>Moje ulubione gry wideo</h1>
+
+ 
+  <!-- SEKCJA 1: WSTĘP I RANKING TOP 3 -->
+  <section>
+    <h2>Sekcja 1: Wstęp oraz ranking gier</h2>
+    <p class="intro-text">
+      Witaj na mojej stronie poświęconej <strong>najlepszym produkcjom w historii gamingu</strong>. Przez lata spędziłem setki godzin przed ekranem, odkrywając fascynujące światy.
+    </p>
+    <p>
+      Gry wideo to dla mnie nie tylko rozrywka, ale przede wszystkim sztuka angażująca emocjonalnie. Jeśli miałbym sporządzić ranking mych najważniejszych tytułów, wyglądałby on tak:
+    </p>
+ 
+    <!-- LISTA NUMEROWANA (RANKING) -->
+    <ol class="ranking-list">
+      <li>Cyberpunk 2077</li>
+      <li>Persona 5 Royal</li>
+      <li>Dying Light The Beast</li>
+    </ol>
+ 
+    <!-- ZDJĘCIE LOKALNE -->
+ 
+    <p class="spacing-top">
+      Gry dają mi niesamowitą ucieczkę od codzienności. Więcej o branży przeczytasz na portalu
+      <a href="https://www.gry-online.pl" target="_blank" rel="noopener noreferrer">Gry-Online</a>.
+    </p>
+  </section>
+ 
+  <!-- SEKCJA 2: OSOBNA SEKCJA Z LINKAMI DO STEAM -->
+  <section>
+    <h2>Sekcja 2: Oficjalne sklepy i linki Steam</h2>
+    <p class="steam-intro">
+      Poniżej przygotowałem osobną listę bezpośrednich odnośników do platformy Steam dla każdego z moich ulubionych tytułów.
+    </p>
+    <p>
+      Możesz w każdej chwili kliknąć w poniższe linki, aby sprawdzić szczegóły i wymagania sprzętowe poszczególnych pozycji:
+    </p>
+ 
+    <!-- ZDJĘCIE ZEWNĘTRZNE W SEKCJI 2 -->
+    <img class="steam-logo" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="Logo Steam" width="60">
+ 
+    <!-- LISTA WYPUNKTOWANA (BULLET LIST) Z LINKAMI -->
+    <ul>
+      <li><a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank" rel="noopener noreferrer">Cyberpunk 2077</a></li>
+      <li><a href="https://store.steampowered.com/app/1687950/Persona_5_Royal/" target="_blank" rel="noopener noreferrer">Persona 5 Royal</a></li>
+      <li><a href="https://store.steampowered.com/app/1113000/Persona_4_Golden/" target="_blank" rel="noopener noreferrer">Persona 4 Golden</a></li>
+      <li><a href="https://store.steampowered.com/app/2161700/Persona_3_Reload/" target="_blank" rel="noopener noreferrer">Persona 3 Reload</a></li>
+      <li><a href="https://store.steampowered.com/app/3008130/Dying_Light_The_Beast/" target="_blank" rel="noopener noreferrer">Dying Light The Beast</a></li>
+      <li><a href="https://store.steampowered.com/app/534380/Dying_Light_2_Stay_Human_Reloaded_Edition/" target="_blank" rel="noopener noreferrer">Dying Light Stay Human</a></li>
+      <li><a href="https://store.steampowered.com/app/325724/Dying_Light_The_Following/" target="_blank" rel="noopener noreferrer">Dying Light The Following</a></li>
+    </ul>
+ 
+    <p>
+      Więcej ogólnych informacji znajdziesz bezpośrednio w
+      <a href="https://store.steampowered.com" target="_blank" rel="noopener noreferrer">sklepie Steam</a>.
+    </p>
+  </section>
+ 
+  <!-- SEKCJA 3: CYBERPUNK EDGERUNNERS I CYTAT -->
+  <section>
+    <h2>Sekcja 3: Cyberpunk Edgerunners i opinie</h2>
+    <
+      Fenomen Night City wykracza daleko poza samą grę komputerową. Ogromnym sukcesem okazał się serial animowany stworzony we współpracy ze studiem Trigger.
+    </p>
+    <p class="quote-desc">
+      Historia Davida Martineza poruszyła serca milionów fanów na całym świecie, pokazując brutalną rzeczywistość ulic miasta.
+    </p>
+ 
+    <blockquote cite="https://www.reddit.com/r/LowSodiumCyberpunk/">
+      "Gra porusza tematy dla dorosłych w dorosły sposób. Podobały mi się mocne momenty i komentarze społeczne, które oferowała gra."
+    </blockquote>
+ 
+    <!-- ZDJĘCIE ZEWNĘTRZNE (URL) -->
+    <img src="https://cdn.animenewsnetwork.com/thumbnails/max500x600/encyc/A25775-1606880264.1654746135.jpg" alt="David Martinez" width="250">
+ 
+    <hr>
+ 
+    <p>
+      Jeżeli chcesz sprawdzić opinie innych widzów, zajrzyj na
+      <a href="https://www.imdb.com/title/tt12590264/" target="_blank" rel="noopener noreferrer">kartę serialu w bazie IMDb</a>.
+    </p>
+  </section>
+  <button onclick="document.getElementById('myImage').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsJrGEPjN3FwbgZlLLR05pQoH59p95iGshVdci0NxAkA_rmROe79w2C6g&s'">kliknij tu !</button>
+
+  <img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoTXPh-uMj39OaszhWUMJRwYkL09XQtTEP_d6jh0vwQ&s=10" style="width:100px">
+
+ <button onclick="document.getElementById('myImage').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoTXPh-uMj39OaszhWUMJRwYkL09XQtTEP_d6jh0vwQ&s=10'">kliknij tu !</button>
+</body>
+</html> 
